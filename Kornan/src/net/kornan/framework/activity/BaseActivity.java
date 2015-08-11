@@ -1,11 +1,11 @@
 package net.kornan.framework.activity;
 
 import net.kornan.framework.utils.Status;
-import android.app.Activity;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 
-public abstract class BaseActivity extends Activity{
+public abstract class BaseActivity extends AppCompatActivity{
 	/**
 	 * 处理网络异步数据
 	 */

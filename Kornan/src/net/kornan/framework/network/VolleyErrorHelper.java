@@ -24,7 +24,7 @@ public class VolleyErrorHelper {
 		Resources res=context.getResources();
 		if (error instanceof TimeoutError) {
 			
-			return res.getString(res.getIdentifier("generic_server_down","String",context.getPackageName()));
+			return res.getString(res.getIdentifier("generic_server_down","string",context.getPackageName()));
 			
 //			return context.getResources().getString(
 //					R.string.generic_server_down);
@@ -32,9 +32,11 @@ public class VolleyErrorHelper {
 			return handleServerError(error, context);
 		} else if (isNetworkProblem(error)) {
 //			return context.getResources().getString(R.string.no_internet);
-			return res.getString(res.getIdentifier("no_internet","String",context.getPackageName())); 
+			String packageName=context.getPackageName();
+			int resId=res.getIdentifier("no_internet","string",packageName);
+			return res.getString(resId); 
 		}
-		return res.getString(res.getIdentifier("generic_error","String",context.getPackageName())); 
+		return res.getString(res.getIdentifier("generic_error","string",context.getPackageName())); 
 //		return context.getResources().getString(R.string.generic_error);
 	}
 
@@ -95,10 +97,10 @@ public class VolleyErrorHelper {
 				return error.getMessage();
 			default:
 //				return context.getResources().getString(R.string.generic_server_down);
-				return res.getString(res.getIdentifier("generic_server_down", "String", context.getPackageName()));
+				return res.getString(res.getIdentifier("generic_server_down", "string", context.getPackageName()));
 			}
 		}
-		return res.getString(res.getIdentifier("generic_error", "String", context.getPackageName()));
+		return res.getString(res.getIdentifier("generic_error", "string", context.getPackageName()));
 //		return context.getResources().getString(R.string.generic_error);
 	}
 }
