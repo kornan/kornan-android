@@ -2,8 +2,9 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="KTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#4876FF</item>
-        <item name="colorPrimaryDark">#3A5FCD</item>
+        <!-- <item name="colorPrimary">#4876FF</item> -->
+        <item name="colorPrimary">#ffffbb33</item>
+        <item name="colorPrimaryDark">#ffff8800</item>
         <item name="android:windowBackground">@android:color/white</item>
         <item name="buttonStyle">@style/kbutton</item>
 
