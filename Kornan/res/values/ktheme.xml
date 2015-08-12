@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="KTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4876FF</item>
+        <item name="colorPrimaryDark">#3A5FCD</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="buttonStyle">@style/kbutton</item>
+
+        <!--
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:editTextStyle">@style/FEditText</item>
+        <item name="android:buttonStyle">@style/FButton</item>
+        <item name="android:spinnerStyle">@style/FSpinner</item>
+        <item name="android:dropDownListViewStyle">@style/FDropDownListView</item>
+        <item name="android:progressBarStyleHorizontal">@style/FProgressBarHorizontal</item>
+        <item name="android:progressBarStyle">@style/FProgressBar</item>
+        <item name="android:radioButtonStyle">@style/FRadioButton</item>
+        <item name="android:checkboxStyle">@style/FCheckBox</item>
+        <item name="android:buttonStyleToggle">@style/FToggleButton</item>
+        <item name="android:textViewStyle">@style/FTextView</item>
+        <item name="android:autoCompleteTextViewStyle">@style/FEditText</item> 
+        <item name="dialogTheme">@style/FDialog</item>
+        <item name="android:listViewStyle">@style/FListView</item>
+        -->
+    </style>
+
+</resources>

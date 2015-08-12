@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!--  <color name="k_light_blue">#5a9aa8</color> -->
+    <color name="k_dark_blue">#4d8693</color>
+    <color name="k_light_blue">#5782FF</color>
+
+</resources>
