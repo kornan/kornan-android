@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-   <!--  <color name="k_light_blue">#5a9aa8</color> -->
+    <!-- <color name="k_light_blue">#5a9aa8</color> -->
     <color name="k_dark_blue">#4d8693</color>
     <color name="k_light_blue">#5782FF</color>
+    <color name="deep_blue">#024481</color>
+    <color name="deep_yellow">#FFC300</color>
+    <color name="deep_red">#C20032</color>
 
 </resources>

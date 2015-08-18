@@ -21,6 +21,11 @@
         <item name="android:background">@drawable/fui_bg_button</item>
     </style>
 
+    <style name="ToolbarTextStyle">
+        <item name="android:textColor">@color/deep_yellow</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
     <style name="main_tab_item">
         <item name="android:layout_width">0dip</item>
         <item name="android:layout_weight">1</item>

@@ -34,12 +34,11 @@ public abstract class BaseActivity extends AppCompatActivity {
 	/**
 	 * toolbar
 	 */
-	public void initToolbar(String title) {
+	public void initToolbar(boolean back,String title) {
 		int id = getResources()
 				.getIdentifier("toolbar", "id", getPackageName());
 		toolbar = (Toolbar) findViewById(id);
 		toolbar.setTitle(title);// 标题的文字需在setSupportActionBar之前，不然会无效
-		// toolbar.setLayoutMode(layoutMode);
 		setSupportActionBar(toolbar);
 		/* 这些通过ActionBar来设置也是一样的，注意要在setSupportActionBar(toolbar);之后，不然就报错了 */
 		// getSupportActionBar().setTitle("标题");
