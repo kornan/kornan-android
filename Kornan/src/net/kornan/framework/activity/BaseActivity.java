@@ -26,9 +26,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 				setData(msg.obj);
 				break;
 			}
-
 		}
-
 	};
 
 	/**
@@ -89,7 +87,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 	// });
 	// return true;
 	// }
-
 	/**
 	 * 所有接收到的数据在此处理
 	 */
