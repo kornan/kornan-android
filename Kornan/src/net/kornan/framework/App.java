@@ -1,6 +1,7 @@
 package net.kornan.framework;
 
 import net.kornan.framework.activeandroid.app.Application;
+import net.kornan.framework.crash.CrashHandler;
 import android.text.TextUtils;
 
 import com.android.volley.Request;
@@ -30,7 +31,7 @@ public class App extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-
+		CrashHandler.getInstance().setCrashHanler(getApplicationContext());
 		// initialize the singleton
 		sInstance = this;
 	}
