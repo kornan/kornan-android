@@ -41,6 +41,7 @@ public class Regex {
 	 */
 	public static final String RE_ID_CARD18 = "^[1-9]\\d{5}[1-9]\\d{3}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{4}$";
 
+	// 区号-号码
 	/**
 	 * 3位区号+8位号码
 	 */
@@ -66,7 +67,14 @@ public class Regex {
 	 * 区号-号码+分机
 	 */
 	public static final String RE_TELPHONE_EXT = "(\\(?(010|021|022|023|024|025|026|027|028|029|852|)\\)?-?\\d{8}(\\-?[0-9]{1,4})?)|(\\(?(0[3-9][0-9]{2})\\)?-?\\d{7,8}(\\-?[0-9]{1,4})?)";
-
+	/**
+	 * HTML标签
+	 */
+	public static final String RE_HTML = "<[^>]+>";
+	/**
+	 * 金额
+	 */
+	public static final String RE_MONEY="^(([0-9]|([1-9][0-9]{0,9}))((\\.[0-9]{1,2})?))$";
 	private static Regex regex = null;
 
 	private Regex() {
